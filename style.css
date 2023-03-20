@@ -1,0 +1,206 @@
+.nav-header-main{
+background: rgb(208, 206, 209);
+color:black;
+position:fixed;
+width:100%;
+display:flex;
+flex-wrap:wrap;
+z-index:1000;
+border: 2px solid;
+}
+.nav-header-main button{
+    background-color: #302e3b;
+  border: none;
+  color: white;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  
+}
+.header-logo{
+    float:left;
+}
+
+
+.option-toggle-button{
+    width:60px;
+    height:100%;
+    background-color: #F98F39;
+    background-image: url(img/pngwave.png);
+    background-repeat: no-repeat;
+    background-size:60%;
+    background-position: center;
+    cursor:pointer;
+}
+
+.option-toggle-button:hover{
+    opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:50px;
+    margin-left: auto;
+    padding-top: 15px;
+}
+.headermenu{
+    margin: 0px;
+}
+
+.nav-header-main ul{
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.nav-header-main ul li{
+    list-style: none;
+    line-height: 60px;
+    transition: 1s;
+}
+
+
+
+.nav-header-main ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#111;
+    font-family:arial;
+    font-size: 20px;
+    margin: 0 10px;  
+    transition: 0.5s;
+}
+
+.nav-header-main ul li:hover{
+    background-color: #171818;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    transition: 0.5s;
+}
+.nav-header-main ul li a:hover{
+    color: #fff;
+    transition:0.5s;
+}
+
+.wrapper-main{
+    display: block;
+    text-align: center;
+    position: relative;
+    padding-top: 80px;
+}
+
+.section-default{
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.signup input{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+.signup input:focus{
+border: 3px solid #555;
+}
+
+.signup button{
+  background-color: #302e3b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.main-content{
+    text-align: center;
+    padding-top: 90px;
+}
+
+.nav-sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: calc(100vh - 60px);
+    padding:0;
+    background-color: #1b1b1b;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-sidebar ul{
+    padding-top: 15px;
+    overflow:hidden;
+    visibility: hidden;
+}
+
+.nav-sidebar ul li{
+    line-height: 60px;
+    list-style: none;
+}
+
+.nav-sidebar ul li span, .nav-sidebar ul li a{
+    display: block;
+    height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    white-space: nowrap;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-sidebar ul li a:hover{
+    background-color: #222;
+}
+
+#contentbox{
+    font-family: arial;
+    width: 30%;
+    margin-top: 80px;
+    margin-left:auto; 
+    margin-right:auto;
+    border: 5px solid;
+    border-radius: 20px;
+    background-color:rgb(216, 216, 216);
+}
+
+#contentbox div{
+padding-top: 5px;
+padding-bottom: 5px;
+text-align: center;
+}
+
+.proft{
+    font-family: arial;
+    width:30%;
+    text-align: left;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: rgb(141, 141, 141);
+}
+.proft td{
+    height:50px;
+    line-height: 50px;
+    padding: 5px;
+}
